@@ -3,19 +3,9 @@ Huzzah! Files for flashing my Infinity Ergodox Rev 1.2b with a juicy Dvorak layo
 ## How to do 'er
 
 ### Using the QMK Configurator
-First, visit the [QMK Configurator](https://config.qmk.fm/#/ergodox_infinity/LAYOUT_ergodox). 
+First, visit the [QMK Configurator](https://config.qmk.fm/#/ergodox_infinity/LAYOUT_ergodox). Click "Import QMK keymap from JSON file." Then paste the link to [dvorak.json](https://raw.githubusercontent.com/roygbyte/InfinityErgodox/master/dvorak.json). Compile the layout and download the source code. Extract the ZIP archive to your filesystem. 
 
-Click "Import QMK keymap from JSON file"
-
-Then paste the link to [dvorak.json](https://raw.githubusercontent.com/roygbyte/InfinityErgodox/master/dvorak.json)
-
-Compile the layout and download the source code.
-
-Extract the ZIP archive to your filesystem.
-
-Open your favorite terminal emulator.
-
-Change into the extracted directory
+Now, open your favorite terminal emulator and change into the extracted directory
 ```
 $ cd qmk_firmware
 ```
@@ -35,6 +25,7 @@ Move the keymap into its own directory
 ```
 $ mkdir keyboards/ergodox_infinity/keymays/dvorak
 $ mv keymap.c keyboards/ergodox_infinity/keymaps/dvorak
+```
 
 Make/build the default layout for the right side
 ``` 
