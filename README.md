@@ -1,7 +1,16 @@
-Huzzah! Files for flashing my Infinity Ergodox Rev 1.2b with a juicy Dvorak layout. 
+Huzzah! Files for flashing my Infinity Ergodox Rev 1.2b with a juicy Dvorak layout.
+
+By the by... a person can make their own changes to this layout by using the [QMK Configurator](https://config.qmk.fm/#/ergodox_infinity/LAYOUT_ergodox). Simply click "Import QMK keymap from JSON" and paste in the URL for the raw dvorak.json file. Then, when you've made your changes and are happy with your keymap, download the JSON again. If you just want to use what I've got here, then don't do this and just go on to the next step.
 
 ## How to do 'er
-First of all, a person can make their own changes to this layout by using the [QMK Configurator](https://config.qmk.fm/#/ergodox_infinity/LAYOUT_ergodox). Simply click "Import QMK keymap from JSON" and paste in the URL for the raw dvorak.json file. Then, when you've made your changes and are happy with your keymap, download the JSON again. If you just want to use what I've got here, then don't do this and just go on to the next step.
+
+### Handy Dandy Install
+
+Clone this repo and execute install.sh.
+
+### Manual Method
+
+Follow the steps below:
 
 So... First we need to clone the QMK Firmware project to a directory on your computer.
 ```
